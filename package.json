@@ -1,0 +1,22 @@
+{
+  "name": "simon-says-game",
+  "version": "1.0.0",
+  "description": "Juego de simon dice para curso r/argentina-programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rolomza/simon-says-game.git"
+  },
+  "author": "Rolomza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rolomza/simon-says-game/issues"
+  },
+  "homepage": "https://github.com/Rolomza/simon-says-game#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
