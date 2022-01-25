@@ -4,9 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Simon says</title>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="alert alert-primary" role="alert" id="estado">
+            <!-- -->
+          </div>
+        </div>
+        <div class="col">
+          <p>Ronda # <strong id="ronda">0</strong></p>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-primary">Empezar</button>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
