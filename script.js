@@ -94,7 +94,7 @@ function resaltar($cuadro) {
 
 function bloquearInputUsuario() {
   document.querySelectorAll('.cuadro').forEach(function ($cuadro) {
-    $cuadro.onclick = function () {};
+    $cuadro.onclick = function () {}; //Esta función vacía bloquea cualquier acción al hacer click mientras es el turno de la máquina
   });
 }
 
